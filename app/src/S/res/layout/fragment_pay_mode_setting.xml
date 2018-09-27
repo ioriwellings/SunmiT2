@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:paddingLeft="26.669983dip"
+    android:paddingRight="26.669983dip">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="93.32999dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/more_title_3"
+            android:textColor="#ff000000"
+            android:textSize="18.669983sp" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66.66dip">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18.0dip"
+            android:text="@string/more_paymode_1"
+            android:textColor="#ff222222"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/more_paymode_2"
+            android:textColor="#ff999999"
+            android:textSize="13.329987sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_below="@id/tv_content"
+            android:layout_marginTop="18.0dip"
+            android:background="#ffe6e6e6" />
+
+        <Switch
+            android:id="@+id/sw_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.0dip"
+            android:textOff="  "
+            android:textOn="  "
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track" />
+    </RelativeLayout>
+</LinearLayout>
